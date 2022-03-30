@@ -1,0 +1,12 @@
+#!/bin/sh
+# forge test -vvvv \
+#     --match-test testExploit \
+#     --match-contract Azino777
+
+forge test -vvvv \
+    --match-test testExploit \
+    --match-contract PrivateRyan
+
+# forge test -vvv \
+#     --match-test testExploit \
+#     --match-contract CallMeMaybe

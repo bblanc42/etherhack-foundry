@@ -1,0 +1,628 @@
+{
+  "_format": "ethers-rs-sol-cache-2",
+  "files": {
+    "/Users/jenshengwong/work/bblanc/etherhack-foundry/lib/ds-test/src/test.sol": {
+      "lastModificationDate": 1648527621939,
+      "contentHash": "5d45a46528eaf8a26f0a8d93669f3148",
+      "sourceName": "lib/ds-test/src/test.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.4.23",
+      "artifacts": {
+        "DSTest": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "test.sol/DSTest.json"
+        }
+      }
+    },
+    "/Users/jenshengwong/work/bblanc/etherhack-foundry/lib/forge-std/src/Vm.sol": {
+      "lastModificationDate": 1648556156413,
+      "contentHash": "5e242d192cc1a77ac825a45b4c89ef29",
+      "sourceName": "lib/forge-std/src/Vm.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.6.0",
+      "artifacts": {
+        "Vm": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Vm.sol/Vm.json"
+        }
+      }
+    },
+    "/Users/jenshengwong/work/bblanc/etherhack-foundry/lib/forge-std/src/stdlib.sol": {
+      "lastModificationDate": 1648556156415,
+      "contentHash": "edff4c1f9c2c81f392ec796f11688f20",
+      "sourceName": "lib/forge-std/src/stdlib.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/forge-std/src/Vm.sol"
+      ],
+      "versionRequirement": ">=0.6.0, <0.9.0",
+      "artifacts": {
+        "stdCheats": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "stdlib.sol/stdCheats.json"
+        },
+        "stdError": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "stdlib.sol/stdError.json"
+        },
+        "stdStorage": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "stdlib.sol/stdStorage.json"
+        }
+      }
+    },
+    "/Users/jenshengwong/work/bblanc/etherhack-foundry/lib/openzeppelin-contracts/contracts/utils/Address.sol": {
+      "lastModificationDate": 1648556597123,
+      "contentHash": "ad714a6368ee7d43cded6bbe8af0b155",
+      "sourceName": "lib/openzeppelin-contracts/contracts/utils/Address.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.1",
+      "artifacts": {
+        "Address": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Address.sol/Address.json"
+        }
+      }
+    },
+    "/Users/jenshengwong/work/bblanc/etherhack-foundry/lib/solmate/src/tokens/ERC20.sol": {
+      "lastModificationDate": 1648556084161,
+      "contentHash": "95ac3ff5640ab4a57dc4cdc2992e79c0",
+      "sourceName": "lib/solmate/src/tokens/ERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "ERC20": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "ERC20.sol/ERC20.json"
+        }
+      }
+    },
+    "/Users/jenshengwong/work/bblanc/etherhack-foundry/lib/solmate/src/utils/SafeTransferLib.sol": {
+      "lastModificationDate": 1648556084163,
+      "contentHash": "19f4ba71d9e7171381e98bb29608ea3a",
+      "sourceName": "lib/solmate/src/utils/SafeTransferLib.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/solmate/src/tokens/ERC20.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "SafeTransferLib": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "SafeTransferLib.sol/SafeTransferLib.json"
+        }
+      }
+    },
+    "/Users/jenshengwong/work/bblanc/etherhack-foundry/src/Azino777.sol": {
+      "lastModificationDate": 1648611760682,
+      "contentHash": "830c172383d8c0cc8cd3d197e1ed381c",
+      "sourceName": "src/Azino777.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/utils/Address.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "Azino777": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Azino777.sol/Azino777.json"
+        }
+      }
+    },
+    "/Users/jenshengwong/work/bblanc/etherhack-foundry/src/CallMeMaybe.sol": {
+      "lastModificationDate": 1648607502963,
+      "contentHash": "50e100e435b857ccadcd67a8b577a0ce",
+      "sourceName": "src/CallMeMaybe.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/utils/Address.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol"
+      ],
+      "versionRequirement": "^0.8.10",
+      "artifacts": {
+        "CallMeMaybe": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "CallMeMaybe.sol/CallMeMaybe.json"
+        }
+      }
+    },
+    "/Users/jenshengwong/work/bblanc/etherhack-foundry/src/PrivateRyan.sol": {
+      "lastModificationDate": 1648785617542,
+      "contentHash": "cc2677e5a619fc1a88ffd33240f0be02",
+      "sourceName": "src/PrivateRyan.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/utils/Address.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "PrivateRyan": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "PrivateRyan.sol/PrivateRyan.json"
+        }
+      }
+    },
+    "/Users/jenshengwong/work/bblanc/etherhack-foundry/src/WheelOfFortune.sol": {
+      "lastModificationDate": 1648664294344,
+      "contentHash": "e38292646786ca71bf0230e2eaf588ba",
+      "sourceName": "src/WheelOfFortune.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/utils/Address.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "WheelOfFortune": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "WheelOfFortune.sol/WheelOfFortune.json"
+        }
+      }
+    },
+    "/Users/jenshengwong/work/bblanc/etherhack-foundry/src/test/Azino777.t.sol": {
+      "lastModificationDate": 1648664039229,
+      "contentHash": "57895cf05331729024ee703e6634560a",
+      "sourceName": "src/test/Azino777.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/stdlib.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Address.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src/Azino777.sol",
+        "utils/Console.sol",
+        "utils/Utilities.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "Azino777Test": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Azino777.t.sol/Azino777Test.json"
+        }
+      }
+    },
+    "/Users/jenshengwong/work/bblanc/etherhack-foundry/src/test/CallMeMaybe.t.sol": {
+      "lastModificationDate": 1648609913270,
+      "contentHash": "8e4c5ba675d8a6fc51e0471f719d3096",
+      "sourceName": "src/test/CallMeMaybe.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/stdlib.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Address.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src/CallMeMaybe.sol",
+        "utils/Console.sol",
+        "utils/Utilities.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "CallMeMaybeTest": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "CallMeMaybe.t.sol/CallMeMaybeTest.json"
+        },
+        "Hack": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "CallMeMaybe.t.sol/Hack.json"
+        }
+      }
+    },
+    "/Users/jenshengwong/work/bblanc/etherhack-foundry/src/test/PrivateRyan.t.sol": {
+      "lastModificationDate": 1648785660486,
+      "contentHash": "c2074e43cc9885889cd0509361e832c4",
+      "sourceName": "src/test/PrivateRyan.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/stdlib.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Address.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src/PrivateRyan.sol",
+        "utils/Console.sol",
+        "utils/Utilities.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "Hack": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "PrivateRyan.t.sol/Hack.json"
+        },
+        "PrivateRyanTest": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "PrivateRyan.t.sol/PrivateRyanTest.json"
+        }
+      }
+    },
+    "/Users/jenshengwong/work/bblanc/etherhack-foundry/src/test/WheelOfFortune.t.sol": {
+      "lastModificationDate": 1648610127814,
+      "contentHash": "5f10e7dd29992acf5bba117196060bb2",
+      "sourceName": "src/test/WheelOfFortune.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/stdlib.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Address.sol",
+        "lib/solmate/src/tokens/ERC20.sol",
+        "lib/solmate/src/utils/SafeTransferLib.sol",
+        "src/WheelOfFortune.sol",
+        "utils/Console.sol",
+        "utils/Utilities.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {
+        "WheelOfFortuneTest": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "WheelOfFortune.t.sol/WheelOfFortuneTest.json"
+        }
+      }
+    },
+    "/Users/jenshengwong/work/bblanc/etherhack-foundry/utils/Console.sol": {
+      "lastModificationDate": 1648555979952,
+      "contentHash": "97140c2080ead0adf0c8d60b96942dab",
+      "sourceName": "utils/Console.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "console": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Console.sol/console.json"
+        }
+      }
+    },
+    "/Users/jenshengwong/work/bblanc/etherhack-foundry/utils/Utilities.sol": {
+      "lastModificationDate": 1648555412621,
+      "contentHash": "8f7260792f48c3338c92635a07b8b3c4",
+      "sourceName": "utils/Utilities.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "lib/forge-std/src/Vm.sol",
+        "lib/forge-std/src/stdlib.sol"
+      ],
+      "versionRequirement": ">=0.8.0",
+      "artifacts": {
+        "IERC20": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Utilities.sol/IERC20.json"
+        },
+        "Utilities": {
+          "0.8.10+commit.fc410830.Darwin.appleclang": "Utilities.sol/Utilities.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+forge install Rari-Capital/solmate
+forge install brockelmore/forge-std
+forge install openzeppelin/openzeppelin-contracts
